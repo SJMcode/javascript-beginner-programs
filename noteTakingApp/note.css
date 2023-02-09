@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: gray;
+  }
+  
+  li {
+    list-style: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightgray;
+  }
+  
+  li:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+  
