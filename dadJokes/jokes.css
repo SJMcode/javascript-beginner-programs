@@ -1,0 +1,31 @@
+.jokes-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .jokes-container h2 {
+    margin-bottom: 30px;
+  }
+  
+  .jokes-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .jokes-container button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .jokes-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
