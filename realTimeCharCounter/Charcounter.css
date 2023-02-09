@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 60%;
+    font-size: 1.5em;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 10px;
+    border: 2px solid #333;
+    box-shadow: 3px 3px 5px #999;
+    outline: none;
+    resize: none;
+  }
+  
+  #counts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 2em;
+  }
+  
+  #counts div {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #counts span {
+    font-size: 2em;
+    color: #f33;
+    font-weight: bold;
+  }
+  
+  #total-characters, #remaining-characters, #words-count, #wpm {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+  #total-characters-count, #remaining-characters-count, #total-words-count, #wpm-count {
+    color: #333;
+  }
+  
+  #total-characters-count {
+    color: green;
+  }
+  
+  #remaining-characters-count {
+    color: red;
+  }
+  
+  #wpm-count {
+    color: blue;
+  }
+  This will add a width to the container, center the text and give it a margin, increase the font size of the text area and counts, add a border and shadow to the text area, and give different colors to each count's value.
+  
+  
+  
+  
+  safir qtr2022
+  more advanced style in css
+  Sure! You can add the following styles to make the layout more flashy:
+  
+  css
+  Copy code
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 60%;
+    font-size: 1.5em;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 10px;
+    border: 2px solid #333;
+    box-shadow: 3px 3px 5px #999;
+    outline: none;
+    resize: none;
+  }
+  
+  #counts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 2em;
+  }
+  
+  #counts div {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #counts span {
+    font-size: 2em;
+    color: #f33;
+    font-weight: bold;
+  }
+  
+  
