@@ -1,0 +1,77 @@
+
+#bmi-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  #bmi-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #bmi-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #bmi-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #bmi-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #bmi-result-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  #bmi-result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  #bmi-category {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+  }
+
+  #bmi-message {
+    font-size: 16px;
+  }
+  
+  #bmi-message.underweight {
+    color: blue;
+  }
+  
+  #bmi-message.normal {
+    color: green;
+  }
+  
+  #bmi-message.overweight {
+    color: orange;
+  }
+  
+  #bmi-message.obese {
+    color: red;
+  }
+  
