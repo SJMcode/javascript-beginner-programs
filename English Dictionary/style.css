@@ -48,6 +48,7 @@ body {
 .result h3 {
   font-size: 30px;
   color: #1f194c;
+  
 }
 .result .word {
   display: flex;
