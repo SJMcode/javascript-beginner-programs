@@ -39,3 +39,4 @@ form.addEventListener("submit", function(event) {
   // Validate location
   if (!location.value) {
    
+  }
