@@ -15,7 +15,6 @@ body{
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-
 }
 
 .container{
@@ -24,17 +23,18 @@ body{
   margin-top: 10px;
   border-radius: 8px;
   box-shadow: 0 30px 50px rgba(30, 20, 49, 0.3);
-
 }
+
 textarea{
   width: 100%;
   border: none;
-  resize: none;
+  resize:none ;
   outline: none;
   font-size: 16px;
   line-height: 28px;
   color: #0e101a;
 }
+
 
 .count{
   background-color: #000000;
@@ -47,14 +47,13 @@ textarea{
   justify-content: space-around;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0 20px 40px rgba(30, 20, 49, 0.4);
-
+  box-shadow: 0 20px 40px rgba(30, 20, 40, 0.4);
 }
 
-.count p {
+.count p{
   color: #a0a0c0;
 }
-.count h5 {
-  color: #e62816;
+.count h5{
+  color: #e62916;
   font-size: 32px;
 }
