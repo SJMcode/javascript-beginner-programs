@@ -24,3 +24,4 @@ wpmCount.textContent = wpm.toFixed(2);
 inputTextArea.addEventListener("focus", function(){
   startTime = new Date().getTime();
 })
+

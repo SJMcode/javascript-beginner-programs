@@ -15,6 +15,7 @@ body{
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+
 }
 
 .container{
@@ -29,12 +30,14 @@ textarea{
   width: 100%;
   border: none;
   resize:none ;
+
+}
+
   outline: none;
   font-size: 16px;
   line-height: 28px;
   color: #0e101a;
 }
-
 
 .count{
   background-color: #000000;
@@ -55,5 +58,16 @@ textarea{
 }
 .count h5{
   color: #e62916;
+  font-size: 32px;
+}
+  box-shadow: 0 20px 40px rgba(30, 20, 49, 0.4);
+
+}
+
+.count p {
+  color: #a0a0c0;
+}
+.count h5 {
+  color: #e62816;
   font-size: 32px;
 }
